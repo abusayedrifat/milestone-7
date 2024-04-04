@@ -1,0 +1,37 @@
+.box{
+    border: 2px solid steelblue;
+    border-radius: 12px;
+    margin: 0 auto;
+    width: 100%;
+}
+.each-box{
+    padding: 20px;
+    margin: 0 auto;
+   
+}
+.each-box h4{
+    text-align: center;
+    font-size: 20px;
+}
+.flag{
+    height: 100px;
+    border: 1px solid rgba(210, 207, 207, 0.533);
+}
+.country-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.visited{
+    background-color: cadetblue;
+    border-radius: 10px;
+}
+.not-visited{
+    background-color: rgba(54, 140, 143, 0.326);
+    border-radius: 12px;
+}
+.flag-container img{
+    margin: 0 7px;
+    height: 50px;
+    border: 1px solid rgba(210, 207, 207, 0.533);
+}
